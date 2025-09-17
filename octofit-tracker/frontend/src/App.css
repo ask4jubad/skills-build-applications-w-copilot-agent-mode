@@ -1,0 +1,99 @@
+/* OctoFit App Main Styles */
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222b45;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: #1e3a5c;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(30,58,92,0.1);
+}
+
+header img.logo {
+  height: 48px;
+  margin-right: 1.5rem;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  color: #aee1f9;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #1e3a5c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(30,58,92,0.05);
+  margin: 2rem 0;
+}
+
+table th {
+  background: #1e3a5c;
+  color: #fff;
+  padding: 0.75rem;
+}
+
+table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e0eafc;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #1e3a5c 0%, #3a8dde 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(30,58,92,0.08);
+  transition: background 0.2s;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #3a8dde 0%, #1e3a5c 100%);
+}
+
+a {
+  color: #3a8dde;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #1e3a5c;
+}
+
+/* Favicon */
+link[rel="icon"] {
+  border-radius: 50%;
+}
