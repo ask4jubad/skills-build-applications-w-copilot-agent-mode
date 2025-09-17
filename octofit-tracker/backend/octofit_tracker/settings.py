@@ -31,7 +31,6 @@ codespace_host = f"{CODESPACE_NAME}-8000.app.github.dev" if CODESPACE_NAME else 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 if codespace_host:
     ALLOWED_HOSTS.append(codespace_host)
-ALLOWED_HOSTS.append('*')  # For dev convenience, remove in production
 
 
 # Application definition
